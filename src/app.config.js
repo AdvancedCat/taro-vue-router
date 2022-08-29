@@ -1,6 +1,7 @@
 export default defineAppConfig({
   pages: [
-    'pages/index/index'
+    'pages/vue-router/index',
+    'pages/index/index',
   ],
   window: {
     backgroundTextStyle: 'light',
