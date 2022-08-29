@@ -1,5 +1,4 @@
 <template>
-
   <view>说明：本页面演示了 vue-router 的基础功能</view>
 
   <view>页面href：{{currentHref}}</view>
@@ -16,9 +15,10 @@
     <!--通过传递 `to` 来指定链接 -->
     <!--`<router-link>` 将呈现一个带有正确 `href` 属性的 `<a>` 标签-->
     <view class="tab-box">
-      <router-link class="tab-item" to="/" replace><text>Home</text></router-link> |
+      <router-link class="tab-item" to="/" replace>Home</router-link> |
       <!-- query传参 -->
       <router-link class="tab-item" to="/tab1?name=advancedcat&from=china" replace>Tab 1</router-link> |
+      <!-- 命名视图 -->
       <router-link class="tab-item" to="/tab2">Tab 2</router-link> |
       <!-- 路由传参 -->
       <router-link class="tab-item" to="/tab3/1234/8765">Tab 3</router-link> |
