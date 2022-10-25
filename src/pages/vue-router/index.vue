@@ -1,6 +1,8 @@
 <template>
   <view>说明：本页面演示了 vue-router 的基础功能</view>
 
+  <a></a>
+
   <view>页面href：{{currentHref}}</view>
 
   <nut-divider dashed>操作区</nut-divider>
